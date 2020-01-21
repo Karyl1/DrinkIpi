@@ -6,17 +6,16 @@
 package com.demo;
 
 /**
- *
  * @author kha.bachiren
  */
 public class Boisson implements I_Payant {
-   private double prix;
-   
-   public  Boisson(double prix){
-    this.prix = prix;
-}
+    private double prix;
 
-    public double getPrix(){
+    public Boisson(double prix) {
+        this.prix = prix;
+    }
+
+    public double getPrix() {
         return this.prix;
     }
 }

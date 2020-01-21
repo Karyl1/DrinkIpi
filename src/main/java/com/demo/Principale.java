@@ -23,7 +23,7 @@ public class Principale {
         ligne_prix.add(b3);ligne_prix.add(s3);ligne_prix.add(s2);
         double total=0;
         for (I_Payant val:ligne_prix ){
-            
+
             total+=val.getPrix();
         }
         System.out.println("total des lignes service compris :" + total);
@@ -39,17 +39,17 @@ public class Principale {
             System.exit(1);
         }
 //        }else if (str.equals("o") || str.equals("O")){
-            System.out.println("Veuillez insérer votre monnaie :\n" +
-                    "La machine n'accepte que les pièces de 2€ mais rend la monnaie");
-            String str2 = sc.nextLine();
-            if(str2.equals("2")){
-                System.out.println("Veuillez choisir votre boisson :\n");
+        System.out.println("Veuillez insérer votre monnaie :\n" +
+                "La machine n'accepte que les pièces de 2€ mais rend la monnaie");
+        String str2 = sc.nextLine();
+        if(str2.equals("2")){
+            System.out.println("Veuillez choisir votre boisson :\n");
 
-                for (Boissons mark : Boissons.values()){
-                    counter++;
-                    System.out.println(mark.getName() + "\t" + mark.getPrice() + "\t" + counter);
-                }
+            for (Boissons mark : Boissons.values()){
+                counter++;
+                System.out.println(mark.getName() + "\t" + mark.getPrice() + "\t" + counter);
             }
+        }
         /*}else{
             System.out.println("Je n'ai pas compris votre réponse. A bientôt !");
             System.exit(1);
@@ -57,5 +57,5 @@ public class Principale {
 
 
     }
-    
+
 }

@@ -10,21 +10,32 @@ public class AutomateManager {
         this.automate = automate;
     }
 
-    public void listAvailableDrinks(Automate a){
-       List<Boissons> drinksList = a.getAvailableDrinks();
-       Stream <Boissons> sb = drinksList.stream();
-       sb.forEach(System.out::println);
+    public void listAvailableDrinks() {
+        List<Boissons> drinksList = automate.getAvailableDrinks();
+        Stream<Boissons> sb = drinksList.stream();
+        sb.forEach(System.out::println);
     }
 
-    public void initMessage(Automate a){
-        a.setMessage("insérez money");
+    public void initMessage() {
+        automate.setMessage("insérez money");
     }
 
-    public void thanksMessage(Automate a){
-
+    public void pickUpMessage() {
+        automate.setMessage("Vous pouvez récupérer votre boisson ");
     }
 
-    public void chooseDrinkMessage(Automate a){
-        a.setMessage("choisissez votre boisson");
+    public void chooseDrinkMessage() {
+        automate.setMessage("choisissez votre boisson");
     }
+
+    /*public double giveBackMoney(double insertedCoins) {
+        double returnedMoney= insertedCoins - ;
+        automate.setAvailableMoney(insertedCoins);
+        return
+    }*/
+
+    public void pickUpMoneyMessage() {
+        automate.setMessage("Vous pouvez récupérer votre monnaie ");
+    }
+
 }

@@ -7,8 +7,8 @@ package com.demo;
 public enum Boissons {
     COCA_COLA("Coca Cola", "1.50"),
     FANTA("Fanta", "1.50"),
-    SPRIT("Sprit", "1.50"),
-    ICE_TEA("Sprit", "1.50"),
+    SPRIT("Sprite", "1.50"),
+    ICE_TEA("Ice Tea", "1.50"),
     RED_BULL("Red Bull", "2.00"),
     EVIAN("Evian", "1.00");
 
@@ -25,7 +25,7 @@ public enum Boissons {
     }
 
     public String toString() {
-        return price;
+        return price + name;
     }
 
     public void setPrice(String price) {

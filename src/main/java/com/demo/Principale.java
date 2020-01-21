@@ -8,7 +8,7 @@ package com.demo;
 import java.util.*;
 /**
  *
- * @author kha.bachiren
+ * @author john.ladeveze
  */
 public class Principale {
     public static void main(String[] args){
@@ -55,6 +55,14 @@ public class Principale {
             System.exit(1);
         }*/
 
+        Boissons values[] = Boissons.values();
+        System.out.println(values[0] + "-------------------------o");
+        ArrayList<Boissons> someBoissonsArrayList = new ArrayList<Boissons>();
+        for(Boissons value:values)
+        {
+            someBoissonsArrayList.add(value);
+            System.out.println(someBoissonsArrayList);
+        }
 
     }
     

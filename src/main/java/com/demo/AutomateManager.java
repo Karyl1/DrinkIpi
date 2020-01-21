@@ -11,18 +11,20 @@ public class AutomateManager {
     }
 
     public void listAvailableDrinks(Automate a){
-       List <Boissons> drinksList = a.getAvailableDrinks();
+       List<Boissons> drinksList = a.getAvailableDrinks();
        Stream <Boissons> sb = drinksList.stream();
        sb.forEach(System.out::println);
     }
 
-    public void init(Automate a){
+    public void initMessage(Automate a){
         a.setMessage("insérez money");
     }
 
-    public void
+    public void thanksMessage(Automate a){
 
-    public void chooseDrink(Automate a){
+    }
+
+    public void chooseDrinkMessage(Automate a){
         a.setMessage("choisissez votre boisson");
     }
 }

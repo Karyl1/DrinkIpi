@@ -68,11 +68,6 @@
         </plugins>
 
     </build>
-<<<<<<< HEAD
-    <dependencies>
-
-
-=======
 
     <dependencies>
         <dependency>
@@ -80,7 +75,6 @@
             <artifactId>logback-classic</artifactId>
             <version>${logbackVersion}</version>
         </dependency>
->>>>>>> 727a23dd5c57b99bac2ccbeb9cee8dadc4a0d102
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter</artifactId>
@@ -94,10 +88,18 @@
             <version>1.5.2</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>RELEASE</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <version>5.5.2</version>
+            <scope>compile</scope>
+        </dependency>
+
     </dependencies>
-<<<<<<< HEAD
-
-
-=======
->>>>>>> 727a23dd5c57b99bac2ccbeb9cee8dadc4a0d102
 </project>

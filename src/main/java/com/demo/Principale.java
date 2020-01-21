@@ -32,6 +32,11 @@ public class Principale {
         }
         System.out.println("total des lignes service compris :" + total);
         System.out.println(b1.getClass().getSimpleName());
+
+
+        final Scanner U = new Scanner(System.in);
+        System.out.println("fffffffffff");
+        final Integer c = U.nextInt();
     }
 
 }

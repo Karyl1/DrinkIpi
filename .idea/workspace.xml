@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="644b4a8e-1619-4ca9-9366-7cd7529830bf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/Automate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/AutomateManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DrinkIpi.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/Automate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/Automate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/AutomateManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/AutomateManager.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -67,7 +67,7 @@
       <updated>1579601720045</updated>
       <workItem from="1579601723888" duration="163000" />
       <workItem from="1579602256982" duration="149000" />
-      <workItem from="1579602565276" duration="4332000" />
+      <workItem from="1579602565276" duration="5581000" />
     </task>
     <servers />
   </component>

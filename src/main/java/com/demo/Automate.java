@@ -4,6 +4,7 @@ public class Automate {
 
     private List <Boissons> availableDrinks;
     private double availableMoney;
+    private String message;
 
     public Automate(List<Boissons> availableDrinks, double availableMoney) {
         this.availableDrinks = availableDrinks;
@@ -18,6 +19,12 @@ public class Automate {
         return availableMoney;
     }
 
+    public String getMessage() {
+        return message;
+    }
+
+
+
     public void setAvailableDrinks(List<Boissons> availableDrinks) {
         this.availableDrinks = availableDrinks;
     }
@@ -26,7 +33,7 @@ public class Automate {
         this.availableMoney = availableMoney;
     }
 
-
-
-
+    public void setMessage(String message) {
+        this.message = message;
+    }
 }

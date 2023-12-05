@@ -10,7 +10,7 @@
 
     <properties>
         <shadeVersion>2.3</shadeVersion>
-        <logbackVersion>1.2.3</logbackVersion>
+        <logbackVersion>1.2.13</logbackVersion>
     </properties>
 
     <build>
